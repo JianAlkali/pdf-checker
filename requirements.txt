@@ -1,0 +1,4 @@
+dashscope>=1.15.0
+pdf2image>=1.17.0
+openpyxl>=3.1.0  # 如需导出报告可保留
+Pillow>=10.0.0
