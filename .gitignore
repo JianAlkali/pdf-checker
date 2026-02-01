@@ -1,0 +1,56 @@
+# ======================
+# Python 默认忽略项
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# ======================
+# 自定义的忽略项
+# ======================
+
+# 我大概不需要
+.history/
+
+# 忽略整个 tests 目录（包括子文件）
+/tests/
+
+# 忽略 output 目录
+/output/
+
+# 忽略特定文件
+testcmd.txt
+
+# 忽略图片文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
